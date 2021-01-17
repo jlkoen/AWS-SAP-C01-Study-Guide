@@ -2,3 +2,7 @@ site_name: AWS SA PRO (SAP-C01) Study Guide
 
 theme:
     name: material
+    features:
+      - navigation.instant
+      - navigation.sections
+
