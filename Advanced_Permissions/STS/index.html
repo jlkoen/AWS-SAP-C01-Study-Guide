@@ -9,19 +9,19 @@
       
       
       
-      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.5">
     
     
       
-        <title>AWS SA PRO (SAP-C01) Study Guide</title>
+        <title>Security Token Service (STS) - AWS SA PRO (SAP-C01) Study Guide</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.15aa0b43.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.15aa0b43.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.75751829.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.75751829.min.css">
         
       
     
@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#aws-solutions-architect-professional-exam-study-guide" class="md-skip">
+        <a href="#security-token-service-sts" class="md-skip">
           Skip to content
         </a>
       
@@ -71,7 +71,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid" aria-label="Header">
-    <a href="." title="AWS SA PRO (SAP-C01) Study Guide" class="md-header-nav__button md-logo" aria-label="AWS SA PRO (SAP-C01) Study Guide">
+    <a href="../.." title="AWS SA PRO (SAP-C01) Study Guide" class="md-header-nav__button md-logo" aria-label="AWS SA PRO (SAP-C01) Study Guide">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -90,7 +90,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              AWS Solutions Architect Professional Exam Study Guide
+              Security Token Service (STS)
             
           </span>
         </div>
@@ -151,7 +151,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="AWS SA PRO (SAP-C01) Study Guide" class="md-nav__button md-logo" aria-label="AWS SA PRO (SAP-C01) Study Guide">
+    <a href="../.." title="AWS SA PRO (SAP-C01) Study Guide" class="md-nav__button md-logo" aria-label="AWS SA PRO (SAP-C01) Study Guide">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -169,70 +169,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          AWS Solutions Architect Professional Exam Study Guide
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         AWS Solutions Architect Professional Exam Study Guide
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#study-materials-used" class="md-nav__link">
-    Study Materials Used
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#about" class="md-nav__link">
-    About
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#exam-areas" class="md-nav__link">
-    Exam Areas
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#my-question-analysis-technique" class="md-nav__link">
-    My Question Analysis Technique
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -244,14 +185,16 @@
 
   
   
+    
+  
   
     
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
       
       <label class="md-nav__link" for="nav-2">
         Advanced Permissions
@@ -268,11 +211,49 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="Advanced_Permissions/STS/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Security Token Service (STS)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Security Token Service (STS)
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#assuming-a-role" class="md-nav__link">
+    Assuming a Role
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -308,29 +289,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#study-materials-used" class="md-nav__link">
-    Study Materials Used
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#about" class="md-nav__link">
-    About
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#exam-areas" class="md-nav__link">
-    Exam Areas
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#my-question-analysis-technique" class="md-nav__link">
-    My Question Analysis Technique
+  <a href="#assuming-a-role" class="md-nav__link">
+    Assuming a Role
   </a>
   
 </li>
@@ -348,60 +308,19 @@
               
                 
                 
-                <h1 id="aws-solutions-architect-professional-exam-study-guide">AWS Solutions Architect Professional Exam Study Guide</h1>
-<h2 id="study-materials-used">Study Materials Used</h2>
+                <h1 id="security-token-service-sts">Security Token Service (STS)</h1>
 <ul>
-<li><a href="https://learn.cantrill.io/p/aws-certified-solutions-architect-professional">Adrian Cantrill's Course</a></li>
+<li>Generates temporary security credentials via sts:AssumeRole  </li>
+<li>Credentails expire and do not belong to the entity  </li>
+<li>Requested by an identity (AWS or External)  </li>
 </ul>
-<h2 id="about">About</h2>
-<p>This study guide is my personal notes for preparing for the SAPRO exam.</p>
-<h2 id="exam-areas">Exam Areas</h2>
-<table>
-<thead>
-<tr>
-<th>Domain</th>
-<th>% of Exam</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Domain 1: Design for Organizational Complexity</td>
-<td>12.5%</td>
-</tr>
-<tr>
-<td>Domain 2: Design for New Solutions</td>
-<td>31%</td>
-</tr>
-<tr>
-<td>Domain 3: Migration Planning</td>
-<td>15%</td>
-</tr>
-<tr>
-<td>Domain 4: Cost Control</td>
-<td>12.5%</td>
-</tr>
-<tr>
-<td>Domain 5: Continuous Improvement for Existing Solutions</td>
-<td>29%</td>
-</tr>
-</tbody>
-</table>
-<h2 id="my-question-analysis-technique">My Question Analysis Technique</h2>
-<p><strong> Understand </strong><br />
-- Determine the key question - the "kicker"<br />
-- Figure out what everything means - question and response  </p>
-<p><strong> Eliminate </strong><br />
-- Get rid of responses that are fake or have errors<br />
-- Get rid of responses that conflict with the question  </p>
-<p><strong> Evaluate </strong><br />
-- Think through tradeoffs for remaining responses<br />
-- Consider both stated and implied dimensions  </p>
-<p><strong> Choose </strong><br />
-- Pick the right answer<br />
-- Select best options or eliminate the bad ones  </p>
-<p><strong> Validate </strong><br />
-- Make sure the response <em>answers</em> the key question<br />
-- Make sure the response doesn't conflict with any details  </p>
+<h2 id="assuming-a-role">Assuming a Role</h2>
+<ul>
+<li>The trust policy determines who can assume the role  </li>
+<li>The permissions policy determines what permissions are to be granted  </li>
+</ul>
+<p>Temporary credentails contain AccessKeyId, Expiration, SecretAccessKey, and SessionToken  </p>
+<p>To revoke temporary credentials from STS, apply a new permissions policy with an inline deny for any sessions older than now (AWSRevokeOlderSessions)</p>
                 
               
               
@@ -420,20 +339,20 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-        
-          <a href="Advanced_Permissions/STS/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../.." class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
-                  Next
+                  Previous
                 </span>
-                Security Token Service (STS)
+                AWS Solutions Architect Professional Exam Study Guide
               </div>
             </div>
-            <div class="md-footer-nav__button md-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-            </div>
           </a>
+        
         
       </nav>
     </div>
@@ -454,15 +373,15 @@
       
     </div>
     
-      <script src="assets/javascripts/vendor.93c04032.min.js"></script>
-      <script src="assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="../../assets/javascripts/vendor.93c04032.min.js"></script>
+      <script src="../../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
-          base: ".",
+          base: "../..",
           features: ['navigation.instant', 'navigation.sections'],
           search: Object.assign({
-            worker: "assets/javascripts/worker/search.8c7e0a7e.min.js"
+            worker: "../../assets/javascripts/worker/search.8c7e0a7e.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
