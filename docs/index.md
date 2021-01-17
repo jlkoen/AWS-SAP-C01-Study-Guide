@@ -5,3 +5,5 @@
 * [Adrian Cantrill's Course](https://learn.cantrill.io/p/aws-certified-solutions-architect-professional)
 
 ## About
+
+This study guide is my personal notes for preparing for the SAPRO exam.
