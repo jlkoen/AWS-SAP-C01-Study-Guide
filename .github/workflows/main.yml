@@ -5,9 +5,9 @@ name: Build Documentation using MkDocs
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 
 jobs:
   build:
