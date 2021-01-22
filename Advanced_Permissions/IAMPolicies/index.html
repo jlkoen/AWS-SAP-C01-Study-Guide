@@ -257,6 +257,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#policy-evaluation-logic" class="md-nav__link">
+    Policy Evaluation Logic
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -321,6 +328,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#policy-evaluation-logic" class="md-nav__link">
+    Policy Evaluation Logic
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -337,11 +351,20 @@
                 <h1 id="iam-policies">IAM Policies</h1>
 <h2 id="permissions-priorities">Permissions Priorities</h2>
 <p><strong>Deny, Allow, Deny</strong>  <br />
-You start off with no permissions. Access is granted with an Allow statement. An exlicit Deny is always denied.</p>
+You start off with no permissions. Access is granted with an Allow statement. An explicit Deny is always denied.</p>
 <p><a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_variables.html">IAM Policy Elements</a></p>
 <h2 id="permissions-boundaries">Permissions Boundaries</h2>
 <p>Permission boundaries don't grant access on thier own. They define the maximum permissions and identity can recieve.
 Any permissions granted outside of a permissions boundary have no effect.</p>
+<h2 id="policy-evaluation-logic">Policy Evaluation Logic</h2>
+<ol>
+<li>Explicit Deny</li>
+<li>Service Control Policy</li>
+<li>Resource Policy</li>
+<li>Permissions Boundary</li>
+<li>Session Policy</li>
+<li>Identity Policy</li>
+</ol>
                 
               
               
